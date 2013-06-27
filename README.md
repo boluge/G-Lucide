@@ -1,4 +1,4 @@
 G-Lucide
 ========
 
-app pour calculer les glucides d'aliments pour l'insulinothérapie fonctionnelle
+app html5 pour calculer les glucides présent dans nos aliments pour l'insulinothérapie fonctionnelle
