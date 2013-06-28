@@ -27,7 +27,6 @@
 		<!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
 		<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/mmenu.css">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="js/jquery.mmenu.min.js"></script>
 		<script src="js/main.js"></script>
@@ -37,11 +36,11 @@
 		<header>
 			<div id="top">
 				<div class="icon">
-					<a href="#">m</a>
+					<a href="#top-left" class="mmenu-opened">p</a>
 				</div>
 				<div class="title"><h1>G-Lucide</h1></div>
 				<div class="icon">
-					<a href="#">p</a>
+					<a href="#top-right">m</a>
 				</div>
 			</div>
 		</header>
@@ -64,6 +63,9 @@
 				<p>100gr de pain contient 50gr de glucides</p>
 			</div>
 		</div>
+		<!-- Menus Top -->
+		<nav id="top-left"></nav>
+		<nav id="top-right"></nav>
 		<footer>
 			<div id="bottom">
 				<div class="icon">c</div>

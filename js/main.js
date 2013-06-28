@@ -14,5 +14,20 @@ jQuery(document).ready(function () {
 	// 		}
 	// 	}
 	// })
-	// .trigger('orientationchange'); 
+	// .trigger('orientationchange');
+	jQuery('nav#top-left').mmenu({
+		position: 'left',
+		counters: true,
+		searchfield: true
+	});
+	jQuery('nav#top-right').mmenu({
+		position: 'right',
+		counters: true,
+		searchfield: true
+	});
+
+	jQuery("#top-left").load("page/top-left.html");
+	// $("#includedContent").load("b.html");
+	// $("#includedContent").load("b.html");
+	// $("#includedContent").load("b.html");
 });
