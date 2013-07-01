@@ -1,0 +1,28 @@
+{
+	"Aliments" : [
+		{
+			"Description" : "Une pomme contient 20gr de glucide pour une d'environ pomme de 150 gr",
+			"Unitee" : true,
+			"Glucides" : 20,
+			"Categories" : [3],
+			"Aliment" : "pomme"
+		},{
+			"Description" : "100gr de pattes contient 20gr de glucides",
+			"Unitee" : false,
+			"Glucides" : 20,
+			"Categories" : [1],
+			"Aliment" : "pattes"
+		},{
+			"Description" : "100gr de pattes contient 20gr de glucides",
+			"Unitee" : false,
+			"Glucides" : 20,
+			"Categories" : [1],
+			"Aliment" : "pattes"
+		}
+	],
+	"Categories" : {
+		"Céréales" : 1,
+		"Pain" : 2,
+		"Fruits" : 3
+	}
+}

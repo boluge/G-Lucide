@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" manifest="site.manifest"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" manifest="site.manifest"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
 		<title>G-Lucide</title>
@@ -10,40 +10,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="cleartype" content="on">
 
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
-		<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
-
-		<!-- iPhone SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
-        <!-- iPhone (Retina) SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup-retina.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPad (portrait) SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup-tablet-portrait.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
-        <!-- iPad (landscape) SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup-tablet-landscape.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
-        <!-- iPad (Retina, portrait) SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup-tablet-portrait-retina.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <!-- iPad (Retina, landscape) SPLASHSCREEN-->
-        <link href="http://localhost/G-Lucide/img/startup/startup-tablet-landscape-retina.png" media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-		<!-- Tile icon for Win8 (144x144 + tile color) -->
-		<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
-		<meta name="msapplication-TileColor" content="#222222">
-		<!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="apple-mobile-web-app-title" content="G-Lucide">
+
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/touch/apple-touch-icon-144x144-precomposed.png">
+		<link href="assets/img/startup/startup-tablet-portrait-retina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">        
+        <link href="assets/img/startup/startup-tablet-landscape-retina.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/touch/apple-touch-icon-114x114-precomposed.png">
+		<link href="assets/img/startup/startup-retina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		
+		<link href="assets/img/startup/startup-retina-4in.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/touch/apple-touch-icon-72x72-precomposed.png">
+		<link href="assets/img/startup/startup-tablet-portrait.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+        
+        <link href="assets/img/startup/startup-tablet-landscape.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+		<link rel="apple-touch-icon-precomposed" href="assets/img/touch/apple-touch-icon-57x57-precomposed.png">
+		<link href="assets/img/startup/startup.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image" >
+		<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 
 		<!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
 		<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
-		<link rel="stylesheet" href="css/main.css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script src="js/jquery.mmenu.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+		<link rel="stylesheet" href="assets/css/main.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.mmenu.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -92,7 +87,7 @@
 			</div>
 		</footer>
 		<!-- Add your site or application content here -->
-		<script src="js/vendor/zepto.min.js"></script>
-		<script src="js/helper.js"></script>
+		<script src="assets/js/vendor/zepto.min.js"></script>
+		<script src="assets/js/helper.js"></script>
 	</body>
 </html>
