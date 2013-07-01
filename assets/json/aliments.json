@@ -20,9 +20,13 @@
 			"Aliment" : "pattes"
 		}
 	],
-	"Categories" : {
-		"Céréales" : 1,
-		"Pain" : 2,
-		"Fruits" : 3
-	}
+	"Categories" : [
+		{
+			"id" : 1,
+			"categorie" : "Céréales"
+		},{
+			"id" : 2,
+			"categorie" : "Fruits"
+		}
+	]
 }

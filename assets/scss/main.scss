@@ -2,6 +2,7 @@
 @import "compass";
 @import "compass/reset";
 @import "mmenu";
+// @import "foundation";
 
 /**** Variables ****/
 $bleufonce : #179CD4;
@@ -22,7 +23,9 @@ $vert : #bada55;
 	font-weight: normal;
 	font-style: normal;
 }
-
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
 .icon {
 	font-family: 'linecons';
 	speak: none;
@@ -178,6 +181,12 @@ body {
 				font-size: 30px;
 				color: $bleufonce;
 			}
+		}
+	}
+	#top-left {
+		padding: 70px 80px 10px 10px;
+		select, input {
+			width: 100%;
 		}
 	}
 }

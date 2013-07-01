@@ -3,19 +3,18 @@ CACHE MANIFEST
 # v0.1
  
 CACHE:
-index.html
-css/main.css
-css/fonts/linecons.dev.svg
-css/fonts/linecons.eot
-css/fonts/linecons.ttf
-css/fonts/linecons.woff
-js/main.js
-js/helper.js
-js/modernizr-2.6.2.min.js
-js/zepto.min.js
-js/jquery.min.js
-js/jquery.mmenu.min.js
-js/vendor/zepto.min.js
+# index.html
+# assets/css/main.css
+# assets/css/fonts/linecons.dev.svg
+# assets/css/fonts/linecons.eot
+# assets/css/fonts/linecons.ttf
+# assets/css/fonts/linecons.woff
+# assets/js/main.js
+# assets/js/helper.js
+# assets/js/vendor/modernizr-2.6.2.min.js
+# assets/js/jquery.min.js
+# assets/js/jquery.mmenu.min.js
+# assets/js/vendor/zepto.min.js
 # img/logo.png
  
 FALLBACK:
